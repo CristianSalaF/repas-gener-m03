@@ -1,4 +1,6 @@
-﻿namespace MainProgram
+﻿using MyLibrary;
+
+namespace MainProgram
 {
     internal class Program
     {
