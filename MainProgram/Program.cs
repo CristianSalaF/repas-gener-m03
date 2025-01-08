@@ -6,7 +6,8 @@ namespace MainProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Introdueix una temperatura en Celsius, per convertir-la a Fahrenheit");
+            Console.WriteLine($"Fahrenheit: {MyLibrary.Math.CelsiusToFrahrenheit(float.Parse(Console.ReadLine()))}");
         }
     }
 }
