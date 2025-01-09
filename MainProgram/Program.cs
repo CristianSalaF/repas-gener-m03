@@ -6,7 +6,8 @@ namespace MainProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Introdueix els graus Celsius a convertir a Kelvin: ");
+            Console.WriteLine(MyLibrary.Math.CelsiusToKelvin(float.Parse(Console.ReadLine())));
         }
     }
 }
