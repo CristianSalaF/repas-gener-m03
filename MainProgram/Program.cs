@@ -6,7 +6,8 @@ namespace MainProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Introdueix el preu seguit del preu amb descompte: ");
+            Console.WriteLine($"Tenen un {MyLibrary.Math.FindDiscountPercent(float.Parse(Console.ReadLine()), float.Parse(Console.ReadLine()))}% de descompte.");
         }
     }
 }
