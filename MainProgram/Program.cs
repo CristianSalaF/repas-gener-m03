@@ -6,7 +6,8 @@ namespace MainProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Introdueix un nombre a convertir de Kelvin a Fahrenheit: ");
+            Console.WriteLine(MyLibrary.Math.KelvinToFahrenheit(float.Parse(Console.ReadLine())));
         }
     }
 }
